@@ -87,14 +87,12 @@ class _ProfileScreenState extends State<ProfileScreen> {
           labelStyle: GoogleFonts.montserrat(color: Colors.grey[600]),
           border: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15.0),
-            borderSide: BorderSide(
-              color: const Color.fromARGB(255, 9, 42, 73)!,
-            ),
+            borderSide: BorderSide(color: const Color.fromARGB(255, 9, 42, 73)),
           ),
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(15.0),
             borderSide: BorderSide(
-              color: const Color.fromARGB(255, 9, 42, 73)!,
+              color: const Color.fromARGB(255, 9, 42, 73),
               width: 2.0,
             ),
           ),

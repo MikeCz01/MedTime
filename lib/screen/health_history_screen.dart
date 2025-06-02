@@ -121,8 +121,7 @@ class _HealthHistoryScreenState extends State<HealthHistoryScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final Color primaryColor = const Color.fromARGB(255, 9, 42, 73)!;
-    final Color accentColor = Colors.lightBlue[500]!;
+    final Color primaryColor = const Color.fromARGB(255, 9, 42, 73);
     final Color textColor = Colors.grey[800]!;
     final Color lightTextColor = Colors.grey[600]!;
     final Color cardColor = Colors.white;
